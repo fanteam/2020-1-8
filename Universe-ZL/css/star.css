@@ -1,0 +1,327 @@
+html{
+    background-color: #000000;
+    margin:0;
+    background-size: cover;
+    padding: 0;
+    height:100%;
+    width: 100%;
+}
+
+.loginlogo{
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navleft{
+    display: flex;
+    list-style-type:none;
+    font-family: "微軟正黑體",Arial;
+    font-size: 18px;
+    text-indent: 25px;
+    position: fixed;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: 150px;  
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+   color: orange;
+   font-weight: bold;
+}
+
+.starworld{
+    display: flex;
+}
+
+.sun{
+    width: 470px;
+    height: 470px;
+    margin-top: 150px;
+    margin-left: -250px;
+    position: absolute;
+}
+.suntxt{
+    margin-top: 150px;
+    margin-left: 200px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+   
+.mercury{
+    width: 11px;
+    height: 11px;
+    margin-top: 400px;
+    margin-left: -20px;
+    position: absolute;
+}
+.mercurytxt{
+    margin-top: 150px;
+    margin-left: 130px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.venus{
+    width: 20px;
+    height: 20px;
+    margin-top: 395px;
+    margin-left: -40px;
+    position: absolute;
+}
+.venustxt{
+    margin-top: 150px;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.earth{
+    width: 25px;
+    height: 25px;
+    margin-top: 393px;
+    margin-left: -40px;
+    position: absolute;
+}
+.earthtxt{
+    margin-top: 150px;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.mars{
+    width: 11px;
+    height: 11px;
+    margin-top: 400px;
+    margin-left: -40px;
+    position: absolute;
+}
+.marstxt{
+    margin-top: 150px;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.jupiter{
+    width: 235px;
+    height: 170px;
+    margin-top: 320px;
+    margin-left: -140px;
+    position: absolute;
+}
+.jupitertxt{
+    margin-top: 150px;
+    margin-left: 70px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.saturn{
+    transform: rotate(-45deg);
+    width: 380px;
+    height: 190px;
+    margin-top: 320px;
+    margin-left: -220px;
+    position: absolute;
+}
+.saturntxt{
+    margin-top: 150px;
+    margin-left: 150px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.uranus{
+    width: 60px;
+    height: 60px;
+    margin-top: 395px;
+    margin-left: -70px;
+    position: absolute;
+}
+.uranustxt{
+    margin-top: 150px;
+    margin-left: 130px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.neptune{
+    width: 55px;
+    height: 55px;
+    margin-top: 395px;
+    margin-left: -70px;
+    position: absolute;
+}
+.neptunetxt{
+    margin-top: 150px;
+    margin-left: 50px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sun:hover{
+    transform:scale(1.1,1.1);
+    transition:transform 0.25s ease;
+}
+
+ .mercury:hover{
+    transform:scale(3,3);
+    transition:transform 0.25s ease;
+}
+
+.venus:hover{
+    transform:scale(3,3);
+    transition:transform 0.25s ease;
+}
+
+.earth:hover{
+    transform:scale(2.5,2.5);
+    transition:transform 0.25s ease;
+}
+
+.mars:hover{
+    transform:scale(3,3);
+    transition:transform 0.25s ease;
+}
+
+.jupiter:hover{
+    transform:scale(1.25,1.25);
+    transition:transform 0.25s ease;
+}
+
+.saturn:hover{
+    transform:scale(1.25,1.25);
+    transition:transform 0.25s ease;
+}
+
+.uranus:hover{
+    transform:scale(1.5,1.5);
+    transition:transform 0.25s ease;
+}
+
+.neptune:hover{
+    transform:scale(1.5,1.5);
+    transition:transform 0.25s ease;
+}
+
+.ps{
+    width:300px;
+    height: 35px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #A0A0A0;
+    margin-top: 400px;
+    margin-left: 600px;
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+}
+
+.starworldtxt{
+    width: 1000px;
+    height: 500px;
+    padding: 0px 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.startitle{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 42px;
+    color: #A0A0A0;
+}
+
+.startxt{
+    font-family: "微軟正黑體";
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.explore{
+    width: 1000px;
+    height: 500px;
+    padding: 0px 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.exploretitle{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    color: #A0A0A0;
+}
+.exploretxt{
+    font-family: "微軟正黑體";
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.from{
+    padding: 0px 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.formtitle{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    color: #A0A0A0;
+}
+.formtxt{
+    width: 1000px;
+    font-family: "微軟正黑體";
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 250px;
+}
+
+.footerA{
+    margin-top: 400px;
+    padding-top: 30px;
+    font-family: "微軟正黑體",Arial;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    height:50px;
+    color: #A0A0A0;
+    background-color: #000000;
+}
